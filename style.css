@@ -200,12 +200,12 @@ transition:all 0.5s ease-in-out;
     margin:0 15px;
     padding: 0 15px;
 }
-.photo .ph-item .col-md
+.photo .ph-items .item
 {
     margin:0;
     padding: 0;
 }
-.photo .ph-item img
+.photo .ph-items img
 {
 display: block;
 width: 100%;
@@ -229,17 +229,18 @@ margin:30px 0
 {
     margin-bottom: 30px;
 }
-.Latest_Post .card.col-md
+.Latest_Post .card.item :first-child
 {
-    margin-left: 20px;
-    margin-bottom: 10px;
-    padding: 0;
+     /* margin-left: 20px; */
+    /* margin-bottom: 10px; 
+    margin:0 10px 10px 10px;
+    padding: 10px 0; */
 }
 .Latest_Post .card.col-md img
 {
    
 }
-.Latest_Post .card.col-md .card-body a
+.Latest_Post .card.item .card-body a
 {
     display: block;
     text-align: left; 
